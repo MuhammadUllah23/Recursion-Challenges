@@ -23,4 +23,14 @@ function factorial(fact) {
   return fact * factorial(fact - 1)
 }
 
-console.log(factorial(3))
+// console.log(factorial(3))
+
+// ---------------------------------------------------------------------------------
+
+// Write a function called productOfArray which takes in an array of numbers and returns the product of them all.
+
+function productOfArray(arr) {
+ 
+}
+
+console.log(productOfArray([1, 2, 3, 10]))
