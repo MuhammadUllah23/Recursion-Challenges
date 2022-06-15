@@ -61,6 +61,17 @@ function fib(seq, sum=1, prevSum=0) {
 
 // fib(4), output: 3
 // fib(10), output: 55
-console.log(fib(30))
+// console.log(fib(30))
 
 // ---------------------------------------------------------------------------------
+
+// Write a recursive function called reverse which accepts a string and returns a new string in reverse.
+
+function reverseString(str) {
+  
+}
+
+console.log(reverse("awesome"))
+
+// ---------------------------------------------------------------------------------
+
