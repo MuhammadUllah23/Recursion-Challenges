@@ -68,10 +68,11 @@ function fib(seq, sum=1, prevSum=0) {
 // Write a recursive function called reverse which accepts a string and returns a new string in reverse.
 
 function reverseString(str) {
-  
+  if (str.length === 1) return str
+  return str[str.length-1] + reverseString(str.slice(0, str.length-1))
 }
 
-console.log(reverse("awesome"))
+console.log(reverseString("awesome"))
 
 // ---------------------------------------------------------------------------------
 
